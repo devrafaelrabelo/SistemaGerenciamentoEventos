@@ -1,0 +1,38 @@
+[
+  {
+    "nome": "Rafael Rabelo",
+    "user": "q",
+    "passwd": "q",
+    "tipo": "cliente"
+  },
+  {
+    "nome": "Roger Rabelo",
+    "user": "w",
+    "passwd": "w",
+    "tipo": "cliente"
+  },
+  {
+    "nome": "Oscar Rabelo",
+    "user": "e",
+    "passwd": "e",
+    "tipo": "cliente"
+  },
+  {
+    "nome": "Violeta Rabelo",
+    "user": "r",
+    "passwd": "r",
+    "tipo": "cliente"
+  },
+  {
+    "nome": "Forrozin",
+    "user": "a",
+    "passwd": "a",
+    "tipo": "empresa"
+  },
+  {
+    "nome": "Forrozeria",
+    "user": "s",
+    "passwd": "s",
+    "tipo": "empresa"
+  }
+]
