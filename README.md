@@ -1,8 +1,8 @@
 # Aplicativo de Sistema de Gerenciamento de Eventos
 
 #
-## FIGMA BASE PARA O LAYOUT MOBILE
-https://www.figma.com/design/cEQGesEygh0IQj3fLPyp5u/Projeto-App-Gooday----Helena-Siena-(Community)?node-id=105-51&node-type=FRAME&t=WyHl2oRsUumn7Vo0-0
+## LAYOUT BASEADO NO SYMPLA
+https://www.sympla.com.br/
 #
 
 ### Resumo da Experiência de Desenvolvimento
