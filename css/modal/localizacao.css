@@ -1,0 +1,55 @@
+.localizacao_modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+
+  top: 0;
+
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  z-index: 400;
+}
+
+.localizacao_modal_container {
+  background-color: #f8f8f8;
+  padding: 2rem 2rem;
+  z-index: 500;
+}
+
+.localizacao_modal_form {
+  width: 300px;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  z-index: 999;
+}
+
+.localizacao_modal_form label  {
+  display: flex;
+  gap: 1rem;
+
+  padding: .750rem 0.5rem;
+  border-radius: 10px;
+
+  background-color: #f8f8f8;
+  border: 1px #f47d34 solid
+}
+
+.btn_confirma_localizacao {
+  padding: .5rem 1rem;
+  border-radius: 10px;
+  border: 1px #f47d34 solid;
+  background-color: #ffffff;
+  cursor: pointer;
+  color: #f47d34;
+  font-weight: 550;
+}
+
+.btn_confirma_localizacao:hover {
+  background-color: #f47d34;
+  color: #ffffff;
+}

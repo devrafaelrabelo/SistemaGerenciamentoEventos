@@ -4,6 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <title>VIVA EVENTOS</title>
 </head>
 
@@ -11,27 +15,28 @@
   <header id="header">
     <div class="header_container">
       <figure class="header_container_logo">
-        <img src="img/global/logo.png" alt="LOGO DA EMPRESA">
+        <a href=""><img src="img/assets/logo.png" alt="LOGO DA EMPRESA"></a>
       </figure>
+
       <form action="search.html" class="header_container_input">
         <input type="text" name="eventos" id="eventos">
       </form>
 
-      <div class="header_container_lozalizacao">
-        QUALQUERLUGAR
+      <div class="header_container_localizacao">
+        <span class="localizacao"></span>
       </div>
 
       <nav>
         <ul class="header_container_menu">
-          <li>CRIE SEU EVENTO</li>
-          <li>ACESSO SUA CONTA</li>
-          <li>CADASTRE-SE</li>
+          <li class="nome_perfil"><a href="perfil.html">Olá, <span></span></a></li>
+          <li><a href="criareventos.html">CRIE SEU EVENTO</a></li>
+          <li class="btn_logar"><a href="login.html">ACESSO SUA CONTA</a></li>
+          <li class="btn_cadastrar"><a href="cadastro.html">CADASTRE-SE</a></li>
+          <li class="btn_deslogar"><a href="">SAIR</a></li>
         </ul>
       </nav>
     </div>
   </header>
-
-
 
   <script type="module" src="js/script.js"></script>
 </body>

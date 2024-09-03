@@ -24,13 +24,13 @@
     "tipo": "cliente"
   },
   {
-    "nome": "Forrozin",
+    "nome": "Empresa A",
     "user": "a",
     "passwd": "a",
     "tipo": "empresa"
   },
   {
-    "nome": "Forrozeria",
+    "nome": "Empresa S",
     "user": "s",
     "passwd": "s",
     "tipo": "empresa"

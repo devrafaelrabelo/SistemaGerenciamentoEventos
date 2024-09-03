@@ -1,0 +1,134 @@
+#header {
+   
+}
+
+.header_container {
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: .5fr 2.5fr 1.5fr 2fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header_container .header_container_logo {
+  width: 96px;
+}
+
+.header_container .header_container_input {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.header_container .header_container_input input {
+  width: 100%;
+  padding: .5rem 1rem .5rem 3rem;
+  font-size: 1em;
+  position: relative;
+}
+
+.header_container .header_container_input::before{
+  content: " ";
+  background-image: url("../../img/assets/pesquisar.svg");
+  background-position: center;
+  background-size: cover;
+  width: 1.750rem;
+  height: 1.750rem;
+  position: absolute;
+  z-index: 2;
+  margin-left: .5rem;
+}
+
+.header_container .header_container_localizacao {
+  display: flex;
+  justify-content: center;
+  color: #f47d34;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.header_container .header_container_localizacao span {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: .5rem 1rem;
+  margin: .5rem 1rem;
+}
+
+.header_container .header_container_localizacao span::before {
+  content: " ";
+  background-image: url("../../img/assets/localizacao.png");
+  background-position: center;
+  background-size: cover;
+  width: 1.5rem;
+  height: 1.5rem;
+  left: -40px;
+  position: absolute;
+  z-index: 2;
+  margin-left: .5rem;
+}
+
+.header_container .header_container_localizacao span::after {
+  content: " ";
+  background-image: url("../../img/assets/baixo.png");
+  background-position: center;
+  background-size: cover;
+  width: 1.5rem;
+  height: 1.5rem;
+  right: -35px;
+  position: absolute;
+  z-index: 2;
+  margin-left: .5rem;
+}
+
+.header_container .header_container_menu {
+  display: flex;
+  justify-content: end;
+}
+
+.header_container .header_container_menu a {
+  display: block;
+
+  padding: .750rem 1rem;
+  font-size: .8rem;
+  font-weight: 550;
+  color: #f47d34;
+}
+
+.header_container .header_container_menu .btn_logar.inativo {
+  display: none;
+}
+
+.header_container .header_container_menu .btn_cadastrar {
+  border: #f47d34 1px solid;
+  border-radius: 10px;
+}
+
+.header_container .header_container_menu .btn_cadastrar.inativo {
+  display: none;
+}
+
+.header_container .header_container_menu .btn_cadastrar:hover {
+  background-color: #f47d34;
+  color: #ffffff;
+}
+
+.header_container .header_container_menu .btn_cadastrar a:hover {
+  color: #ffffff;
+}
+
+.header_container .header_container_menu .btn_deslogar {
+  display: none;
+}
+
+.header_container .header_container_menu .btn_deslogar.ativo{
+  display: initial;
+}
+
+.nome_perfil {
+  display: none;
+}
+
+.nome_perfil.ativo {
+  display: initial;
+}

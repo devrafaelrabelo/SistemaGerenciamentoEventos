@@ -1,0 +1,82 @@
+.modal_login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+
+  top: 0;
+
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  z-index: 400;
+}
+
+.modal_login_img {
+  background-color: #6761A8;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal_login_tela {
+  background-color: #ffffff;
+  height: 500px;
+  padding: 2rem 1rem;
+}
+
+.modal_login_tela h2 {
+  font-size: 4rem;
+  color: #f47d34;
+}
+
+.modal_login_form {
+  width: 500px;
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 4rem;
+}
+
+.modal_login_form input + label {
+  margin-top: 2rem;
+}
+
+.modal_login input {
+  margin-top: .5rem;
+  padding: 0.5rem;
+  outline: none;
+  border: 1px solid #f47d34;
+  border-radius: 10px;
+}
+
+.modal_login_form_btn {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.modal_login_form_btn button {
+  padding: .5rem 1rem;
+  border-radius: 10px;
+  border: 1px #f47d34 solid;
+  background-color: #ffffff;
+  cursor: pointer;
+  color: #f47d34;
+  font-weight: 550;
+}
+
+.modal_login_form_btn button:hover {
+  background-color: #f47d34;
+  color: #ffffff;
+}
+
+.msg_erro {
+  color: red;
+  text-align: center;
+}
