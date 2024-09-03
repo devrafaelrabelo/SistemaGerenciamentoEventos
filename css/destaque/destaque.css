@@ -1,0 +1,60 @@
+.destaque {
+  margin: 2rem 0;
+}
+
+.destaque_container {
+  width: min(100%, 1200px);
+  margin: auto ;  
+}
+
+.destaque_lista {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+
+.destaque_card {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 2px 6px 10px 5px rgba(0, 0, 0, 0.1) ;
+}
+
+.destaque_card figure {
+  display: flex;
+  width: 100%;
+}
+
+.destaque_card img {  
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.destaque_card .box_detalhes {  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem 0 1.5rem 1.5rem;  
+}
+
+.destaque_card h2 {  
+  font-size: 3rem;
+}
+
+.destaque_card a {  
+  font-size: 1rem;
+  border: 1px solid #f47d34;  
+  width: fit-content; 
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  color: #f47d34;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.destaque_card a:hover {
+  color: #ffffff;
+  background-color: #f47d34;
+}

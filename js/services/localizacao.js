@@ -3,7 +3,7 @@ import LocalizacaoModal from "../auxiliar/localizacaoModal.js";
 export default class Localizacao {
   constructor() {
     this.localizacaoText = document.querySelector('.localizacao')
-    this.localizacao = JSON.parse(localStorage.getItem('localizacao')) ? this.localizacao = JSON.parse(localStorage.getItem('localizacao')) : this.localizacao = "TODOS"
+    JSON.parse(localStorage.getItem('localizacao')) ? this.localizacao = JSON.parse(localStorage.getItem('localizacao')) : this.localizacao = "TODOS"
     this.eventAtualizaLocalizacao = this.eventAtualizaLocalizacao.bind(this)
   }
 
@@ -22,13 +22,12 @@ export default class Localizacao {
   }
 
   atualizaLocalizacao(dadosForm) {
-    console.log(dadosForm)
     if (dadosForm.localizacao == 'ATUAL') {
       this.fetchGeoLocalizacao()
     } else {
       this.localizacao = dadosForm.localizacao
       this.preencherLocalizacao()
-    }   
+    }
   }
 
   eventAtualizaLocalizacao(e) {

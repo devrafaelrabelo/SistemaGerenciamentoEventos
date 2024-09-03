@@ -1,0 +1,15 @@
+.visto_recente {
+  margin: 2rem 0;
+}
+
+.visto_recente_container {
+  width: min(100%, 1200px);
+  margin: 2rem auto ;
+  padding: 2rem 0;
+}
+
+.recentemente_lista {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+}

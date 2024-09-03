@@ -1,6 +1,5 @@
 export default class LogOff {
   constructor() {
-
     this.eventDeslogar = this.eventDeslogar.bind(this)
   }
 

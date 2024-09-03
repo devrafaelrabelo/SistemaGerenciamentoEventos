@@ -4,8 +4,21 @@
 /* Header */
 @import 'header/headerBase.css';
 
-/* Header */
+/* Modal */
 @import 'modal/login.css';
-
-/* Header */
 @import 'modal/localizacao.css';
+
+/* Menu */
+@import 'menu/categoria.css';
+
+/* Recente */
+@import 'recente/recente.css';
+
+/* FimdeSemana */
+@import 'nofimdesemana/fimdesemana.css';
+
+/* Mais Visto */
+@import 'maisvisto/maisvisto.css';
+
+/* Destaque */
+@import 'destaque/destaque.css';

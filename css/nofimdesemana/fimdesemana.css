@@ -1,0 +1,14 @@
+.evento_no_fds {
+  margin: 2rem 0;
+}
+
+.evento_no_fds_container {
+  width: min(100%, 1200px);
+  margin: auto ;  
+}
+
+.evento_no_fds_lista {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
